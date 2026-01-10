@@ -27,6 +27,7 @@ h2{
     font-family: 'Courier New', Courier, monospace;
     box-shadow: 0px 0px 10px #5c5c5d;
     margin: 1px;
+    z-index: 1;
 }
 
 .slide ul{
@@ -61,7 +62,7 @@ color: #000;
 }
 
 .toggle{
-  position: absolute;
+  position: fixed;
   left:1%;
   top:22px;
   height: 9%;
@@ -79,6 +80,7 @@ cursor: pointer;
   border-radius: 50px;
   height: 8px;
   width:38px;
+  z-index: 1;
 }
 
 .toggle .top-line{
@@ -165,7 +167,7 @@ h1{
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding-top: 55px;
-  letter-spacing: 15px;
+  letter-spacing: 12px;
   margin-top: 50px;
 }
 
@@ -176,7 +178,7 @@ h1{
 
 .about-layout{
   display: block;
-  gap:50px;
+  gap:20px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -218,7 +220,7 @@ h1{
 .project-images img{
   width: 40%;
   padding: 10px 10px;
-  margin: 10px 20px;
+  margin: 10px 28px;
 }
 
 .frameworks{
@@ -234,7 +236,7 @@ h1{
 
 
 .html{
-   max-width:30%;
+   max-width:45%;
   height:auto;
   box-shadow: 0px 0px 10px #857e7e;
   justify-content: center;
@@ -247,7 +249,7 @@ h1{
   transform: rotateZ(-25deg);
 }
 .css{
-  max-width:28%;
+  max-width:30%;
   height:auto;
   box-shadow: 0px 0px 10px #857e7e;
   justify-content: center;
@@ -285,7 +287,7 @@ h1{
 
 .contact-content button{
   display: flex;
-  margin-left: 80%;
+  margin-left: 35%;
 }
 
 .contact-content button:active{
@@ -342,7 +344,7 @@ button:hover{
   color:#fff;
 }
 
-@media only screen and (max-width:700px){
+@media only screen and (max-width:600px){
   .body{
     padding: 10px;
   }
